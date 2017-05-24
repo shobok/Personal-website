@@ -384,6 +384,16 @@ a:focus {
 	padding: 30px;
 }
 
+.form-control {
+  color: #0FA8A0;
+  border: 1px solid #7FD6CB;
+}
+
+.form-control:focus {
+   border-color: #0FA8A0;
+   box-shadow: none;
+}
+
 @media (max-width:768px) {
 	.boxed-form {
 		margin-bottom: 30px;
@@ -438,4 +448,9 @@ footer a:hover {
 }
 
 /* ----------------------------------- */
+/* Select style */
+*::selection {
+    color: #fff;
+    background: #0FA8A0;
+   }
 
