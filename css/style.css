@@ -125,7 +125,7 @@ a:focus {
 }
 
 .icon-memu {
-	margin-left: 15px;
+	margin-left: 12px;
 }
 
 .gn-menu-main li.gn-trigger {
@@ -265,7 +265,7 @@ a:focus {
 
 @media (max-width:480px) {
 	.intro .slogan {
-		padding:170px 0 60px;	
+		padding:170px 0 60px;
 	}	
 }
 
